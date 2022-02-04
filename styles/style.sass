@@ -1,0 +1,213 @@
+@import "../node_modules/bootstrap/scss/functions"
+@import "../node_modules/bootstrap/scss/variables"
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+
+$primary : #0d6efd
+
+#login
+    display: flex
+    flex-direction: column
+    background-color: white
+    border: 1px solid black
+    border-radius: 10px
+    width: 750px
+    height: 375px
+    vertical-align: middle
+    margin: auto
+    position: absolute
+    top:0
+    bottom: 0
+    left: 0
+    right: 0
+
+form
+    margin: auto
+
+#inicio
+    margin: auto
+
+
+.navbar
+    position: fixed 
+    overflow: hidden
+    top: 0
+    width: 100%
+    z-index: 9998
+
+#filtro
+    background-color: $primary
+    display: inline-block
+    vertical-align: top
+    margin-top: 3.5%
+    padding: 2%
+    border: 3px solid darkblue
+
+#filtro
+    h4
+        color: white
+    
+
+#filtro
+    .bi
+        font-size: 50px
+        background-color: white
+        border: 1px solid black
+        border-radius: 10%
+        padding: 3px
+        
+
+#map
+    height: 360px
+    width: 850px 
+    border: 3px solid darkblue
+    display: inline-block
+    margin-top: 55px
+
+.navbar-collapse.collapse.in 
+    display: block!important
+
+li a
+    margin: 7px
+    padding: 2px
+
+#CityContainer
+    width: 750px
+    display: inline-block
+    vertical-align: top
+    margin-top: 55px
+
+#InfoContainer
+    align-items: center
+    height: 500px
+    width: 100%
+    background-color: $primary
+    margin-top: 2%
+
+#CardContainer
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 100%
+    margin-top: 2%
+
+.CityDiv
+    display: inline-block
+    border: 1px solid darkblue
+    border-radius: 10px
+    margin: 0.4%
+    padding: 2%
+
+.btn-close
+    height: 5px
+    width: 5px
+    
+.drag-zone
+    display: flex
+    align-items: center
+    justify-content: center
+    border: 4px dashed white
+    height: 350px
+    width: 30%
+    border-radius: 10px
+    margin: 1%
+
+#drag-zone-title
+    text-align: center
+    opacity: 60%
+
+.drag-zone-lleno
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    border: 4px dashed white
+    height: 350px
+    width: 30%
+    border-radius: 10px
+    margin: 1%
+    letter-spacing: 200%
+
+.card
+    height: 275px
+
+.tTexto::first-letter
+    text-transform: uppercase
+    
+
+.tImg
+    width: 50px
+    height: 50px
+
+
+.bi-plus-square
+    font-size: 5rem
+    color: white
+
+#mInicial
+    color: grey
+
+#drag-zone-title
+    color: white
+
+#cHumedad0
+    display: none
+
+#cHumedad1
+    display: none
+
+#cHumedad2
+    display: none
+
+#cViento0
+    display: none
+
+#cViento1
+    display: none
+
+#cViento2
+    display: none
+
+#cLluvia0
+    display: none
+
+#cLluvia1
+    display: none
+
+#cLluvia2
+    display: none
+    
+.bi
+    z-index: 9997
+
+.btn-card
+    float: right
+
+footer 
+  display: flex
+  align-items: center
+  justify-content: space-between
+  position: relative
+  bottom: 0
+  width: 100%
+  height: 70px
+  background-color: black
+  color: white
+  padding: 2%
+
+footer
+    div
+        text-align: center
+
+.bi-github
+    font-size: 30px
+
+.ui-dialog
+    position: fixed
+    top: 50%
+    left: 50%
+    margin-top: -50px
+    margin-left: -50px
+
+.ui-dialog-titlebar-close 
+    visibility: hidden

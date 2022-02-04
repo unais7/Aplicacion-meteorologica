@@ -1,0 +1,33 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "parcel build ./src/index.html --public-url /2daw3/unais/AppMeteorologica/",
+    "proxy": "parcel build ./src/index.html",
+    "start": "parcel serve ./src/index.html --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.1.1",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.45.1"
+  },
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.1.1",
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2",
+    "jquery": "^3.6.0",
+    "jquery-ui": "^1.13.0",
+    "jquery-ui-dist": "^1.13.0",
+    "popper.js": "^1.16.1"
+  },
+  "alias": {
+    "leaflet": {
+      "global": "L"
+    }
+  }
+}
